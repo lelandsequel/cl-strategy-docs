@@ -60,8 +60,50 @@ Generate city-specific pages for target markets:
 - Push to GitHub
 - TJ deploys via Vercel
 
+### 7. Test (REQUIRED)
+
+**Spawn 2 sub-agents to test:**
+
+1. **Sub-agent 1:** Functional testing
+   - Verify all pages load
+   - Test forms (if any)
+   - Check mobile responsiveness
+   - Verify SEO tags present
+
+2. **Sub-agent 2:** SEO/AEO testing
+   - Validate schema markup
+   - Check meta tags
+   - Verify sitemap
+   - Test page speed
+
+### 8. Document (REQUIRED)
+
+Update project docs in `docs/projects/`:
+
+```markdown
+## Test Results
+
+### Sub-agent 1 (Functional)
+- ✅ Pages load
+- ✅ Forms work
+- ✅ Mobile OK
+
+### Sub-agent 2 (SEO/AEO)
+- ✅ Schema valid
+- ✅ Meta tags present
+- ✅ Sitemap OK
+```
+
 ## Files
 
 - Deck template: Google Slides
 - Site code: `seo-sites/`
+- Project doc: `docs/projects/{client-name}.md`
 - Output: Live URL
+
+## Future: Autonomous Build
+
+Goal: Receive client info via Telegram → fully autonomous build
+- Supabase CLI for backend wiring
+- Auto-generate all city pages
+- Full test suite automation
