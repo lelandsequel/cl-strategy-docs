@@ -1,0 +1,38 @@
+site_name: C&L Strategy Docs
+site_description: Documentation for all C&L Strategy projects, apps, and workflows
+site_url: https://docs.cl-strategy.com
+
+theme:
+  name: material
+  palette: 
+    - scheme: default
+      primary: indigo
+      accent: blue
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Draft Zero: projects/draft-zero.md
+      - Trailer Forge: projects/trailer-forge.md
+      - Muse: projects/muse.md
+      - Sampler Cove Legacy: projects/sampler-cove-legacy.md
+      - FX Credit Engine: projects/fx-credit-engine.md
+      - SEO Network: projects/seo-network.md
+  - Workflows:
+      - Client Website: workflows/client-website.md
+      - Google Slides API: workflows/google-slides.md
+      - Image Generation: workflows/image-gen.md
+      - Deployment: workflows/deployment.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
