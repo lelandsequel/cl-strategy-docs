@@ -26,6 +26,7 @@
 ```
 Location: seo-sites/{city}-{business-type}/
 Tech: Next.js (App Router)
+UI: DaisyUI (https://daisyui.com)
 Deploy: Push to GitHub → TJ deploys
 ```
 
@@ -105,5 +106,6 @@ Update project docs in `docs/projects/`:
 
 Goal: Receive client info via Telegram → fully autonomous build
 - ✅ Supabase CLI installed (v2.75.0)
+- ✅ DaisyUI as default UI library
 - Auto-generate all city pages
 - Full test suite automation
