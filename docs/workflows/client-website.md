@@ -104,6 +104,6 @@ Update project docs in `docs/projects/`:
 ## Future: Autonomous Build
 
 Goal: Receive client info via Telegram → fully autonomous build
-- Supabase CLI for backend wiring
+- ✅ Supabase CLI installed (v2.75.0)
 - Auto-generate all city pages
 - Full test suite automation
