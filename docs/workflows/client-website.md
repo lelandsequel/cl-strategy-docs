@@ -30,6 +30,15 @@ UI: DaisyUI (https://daisyui.com)
 Deploy: Push to GitHub → TJ deploys
 ```
 
+### 1.5. TEST BUILD LOCALLY (REQUIRED)
+
+```bash
+cd /path/to/site
+npm run build
+```
+
+**ALWAYS test build locally before pushing.** Fix any errors before committing.
+
 ### 2. SEO Audit & Optimization
 
 - On-page: titles, meta, headings, content
