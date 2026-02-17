@@ -111,6 +111,19 @@ Update project docs in `docs/projects/`:
 - Project doc: `docs/projects/{client-name}.md`
 - Output: Live URL
 
+## Example: Silvadew
+
+Reference implementation: https://github.com/lelandsequel/silvadew
+
+This site demonstrates the full workflow:
+- Multi-page structure (/, /services, /about, /contact, /deck)
+- Interactive click-through deck (13 slides)
+- SEO: meta tags, OG, Twitter Cards
+- AEO: FAQ schema, Organization schema
+- Sitemap + robots.txt
+- Video hero
+- Dark brutalist design
+
 ## Future: Autonomous Build
 
 Goal: Receive client info via Telegram → fully autonomous build

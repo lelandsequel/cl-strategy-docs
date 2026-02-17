@@ -54,6 +54,9 @@
 ### Console Errors
 - None (only React DevTools info messages, no actual errors)
 
+### Mobile Responsiveness
+- **FAIL**: Navigation uses `hidden md:flex` which hides on mobile, but no hamburger menu is implemented. Mobile users cannot access Services, About, Contact, or Deck pages.
+
 ## SEO/AEO Test Results
 
 ### Meta Tags
